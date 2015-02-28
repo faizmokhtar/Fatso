@@ -32,7 +32,6 @@
 
         {{! Everything inside the #author tags pulls data from the author }}
         {{#author}}
-
             {{#if image}}
             <figure class="author-image">
                 <a class="img" href="{{url}}" style="background-image: url({{image}})"><span class="hidden">{{name}}'s Picture</span></a>
@@ -72,7 +71,10 @@
             </section>
 
         </footer>
-
+        
+        <section class="post-comment">
+            {{> "comment"}}
+        </section>
     </article>
 
 </main>
