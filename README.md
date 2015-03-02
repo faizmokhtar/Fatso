@@ -2,6 +2,10 @@
 
 A simple ghost theme forked from [Casper](https://github.com/TryGhost/Casper).
 
+- Syntax highlighting support.
+- Add disqus comments.
+- Add Google analytics.
+
 ## Copyright & License
 
 Copyright (c) 2013-2015 Ghost Foundation - Released under the MIT License.
