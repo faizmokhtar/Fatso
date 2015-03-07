@@ -855,11 +855,12 @@ body:not(.post-template) .post-title {
 
 .post-template .post-header {
    margin-bottom: 3.4rem;
+   padding-bottom: 1rem;
    border-bottom: #EBF2F6 1px solid;
 }
 
 .post-template .post-title {
-    margin-bottom: 0;
+    margin-bottom: 0.3em;
 }
 
 .post-template .post-meta {
