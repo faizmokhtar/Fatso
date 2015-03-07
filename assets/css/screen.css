@@ -907,6 +907,19 @@ body:not(.post-template) .post-title {
     margin: 0 -13%;
 }
 
+.post-content a {
+    font-weight: 400;
+    color: #3498db;
+    -webkit-transition: background-color 0.3s, border-color 0.3s;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.post-content a:hover {
+    color: #2980b9;
+    border-color: rgba(235, 242, 246, 0);
+    background-color: rgba(235, 242, 246, 1);
+}
+
 /* The author credit area after the post */
 .post-footer {
     position: relative;
