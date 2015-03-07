@@ -207,16 +207,16 @@ h4, h5, h6 {
     -moz-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
     -o-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
     color: #2E2E2E;
-    line-height: 1.15em;
+    line-height: 1.20em;
     margin: 0 0 0.4em 0;
     font-family: "Varela Round", sans-serif;
-    font-weight: bolder;
+    font-weight: 700;
     text-rendering: geometricPrecision;
 }
 
 h1 {
-    font-size: 6rem;
-    letter-spacing: -2px;
+    font-size: 5rem;
+    letter-spacing: -1px;
     text-indent: -3px;
 }
 
