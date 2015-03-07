@@ -189,6 +189,8 @@ body {
     -moz-font-feature-settings: 'kern' 1;
     -o-font-feature-settings: 'kern' 1;
     text-rendering: geometricPrecision;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 ::-moz-selection {
@@ -560,6 +562,7 @@ margin on the iframe, cause it breaks stuff. */
     float: left;
     background: none !important;
     border: none !important;
+    color: rgba(0,0,0,0.8);
 }
 
 .blog-logo img {
