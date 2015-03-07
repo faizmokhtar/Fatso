@@ -258,6 +258,10 @@ p, ul, ol, dl {
     text-rendering: geometricPrecision;
 }
 
+b, strong {
+    font-weight: 400;
+}
+
 ol, ul {
     padding-left: 3rem;
 }
