@@ -1250,7 +1250,7 @@ body:not(.post-template) .post-title {
     width: 80%;
     max-width: 710px;
     margin: 4rem auto;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Varela Round", sans-serif;
     font-size: 1.3rem;
     color: #9EABB3;
     text-align: center;
@@ -1335,8 +1335,8 @@ body:not(.post-template) .post-title {
     margin: 8rem 0 0 0;
     padding: 0.5rem 15px;
     border-top: #EBF2F6 1px solid;
-    font-family: "Open Sans", sans-serif;
-    font-size: 1rem;
+    font-family: "Varela Round", sans-serif;
+    font-size: 1.4rem;
     line-height: 1.75em;
     color: #BBC7CC;
 }
@@ -1351,17 +1351,18 @@ body:not(.post-template) .post-title {
     color: #50585D;
 }
 
-.poweredby {
+.craft {
     display: block;
-    width: 45%;
-    float: right;
-    text-align: right;
+    text-align: center;
+}
+
+.craft span {
+    color: #e74c3c;
 }
 
 .copyright {
     display: block;
-    width: 45%;
-    float: left;
+    text-align: center;
 }
 
 
