@@ -18,8 +18,8 @@
     <meta name="twitter:title" content="{{title}}">
     <meta name="twitter:description" content="{{excerpt characters="200"}}"/>
     {{#if image}}
-      <meta name="twitter:image:src" content="{{image}}"/>
-      <meta name="og:image" content="{{image}}">
+      <meta name="twitter:image:src" content="{{@blog.url}}{{image}}"/>
+      <meta name="og:image" content="{{@blog.url}}{{image}}">
     {{/if}}
   {{/contentFor}}
 <header class="main-header post-head no-cover">
