@@ -6,8 +6,24 @@
 {{! Everything inside the #post tags pulls data from the post }}
 {{#post}}
 
-<header class="main-header post-head {{#if image}}" style="background-image: url({{image}}){{else}}no-cover{{/if}}">
-    <nav class="main-nav {{#if image}}overlay{{/if}} clearfix">
+  {{#contentFor "meta"}}
+    <meta property="og:type" content="article"/>
+    <meta property="og:title" content="{{title}}"/>
+    <meta property="og:description" content="{{excerpt characters="200"}}"/>
+    <meta property="og:url" content="{{@blog.url}}"/>
+    <meta property="og:site_name" content="{{@blog.title}}" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@faizmokh">
+    <meta name="twitter:creator" content="@faizmokh">
+    <meta name="twitter:title" content="{{title}}">
+    <meta name="twitter:description" content="{{excerpt characters="200"}}"/>
+    {{#if image}}
+      <meta name="twitter:image:src" content="{{image}}"/>
+      <meta name="og:image" content="{{image}}">
+    {{/if}}
+  {{/contentFor}}
+<header class="main-header post-head no-cover">
+    <nav class="main-nav clearfix">
         <a class="back-button icon-arrow-left" href="{{@blog.url}}">Home</a>
         <a class="subscribe-button icon-feed" href="{{@blog.url}}/rss/">Subscribe</a>
     </nav>
