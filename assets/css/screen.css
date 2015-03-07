@@ -340,7 +340,7 @@ code, tt {
     font-size: 0.85em;
     white-space: pre-wrap;
     border: #E3EDF3 1px solid;
-    background: #F7FAFB;
+    background: #E3EDF3;
     border-radius: 2px;
 }
 
@@ -584,7 +584,7 @@ margin on the iframe, cause it breaks stuff. */
     float: left;
     height: 38px;
     padding: 0 15px 0 10px;
-    border: transparent 1px solid;
+    border: transparent 2px solid;
     color: #9EABB3;
     text-align: center;
     font-size: 12px;
@@ -610,7 +610,7 @@ margin on the iframe, cause it breaks stuff. */
     float: right;
     height: 38px;
     padding: 0 20px;
-    border: transparent 1px solid;
+    border: transparent 2px solid;
     color: #9EABB3;
     text-align: center;
     font-size: 12px;
@@ -661,7 +661,7 @@ margin on the iframe, cause it breaks stuff. */
 /* Add a border to the buttons on hover */
 .back-button:hover,
 .subscribe-button:hover {
-    border-color: #bfc8cd;
+    border-color: #ebf2f6;
     color: #9EABB3;
 }
 
@@ -702,7 +702,7 @@ margin on the iframe, cause it breaks stuff. */
 .no-cover .main-nav.overlay .back-button,
 .no-cover .main-nav.overlay .subscribe-button {
     color: rgba(0,0,0,0.4);
-    border-color: rgba(0,0,0,0.3);
+    border-color: #ebf2f6;
 }
 
 /* Add subtle load-in animation for content on the home page */
