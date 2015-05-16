@@ -3,8 +3,9 @@
 A simple ghost theme forked from [Casper](https://github.com/TryGhost/Casper).
 
 - Syntax highlighting support.
+- Code injection support.
 - Add disqus comments.
-- Add Google analytics.
+
 
 ## Copyright & License
 
