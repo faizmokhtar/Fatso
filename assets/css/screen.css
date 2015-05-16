@@ -168,18 +168,6 @@ table { border-collapse: collapse; border-spacing: 0; }
 }
 
 @font-face {
-  font-family: 'AvenirNext-UltraLight';
-  src: url('../fonts/AvenirNext-UltraLight.eot');
-  src: url('../fonts/AvenirNext-UltraLight.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/AvenirNext-UltraLight.woff2') format('woff2'),
-       url('../fonts/AvenirNext-UltraLight.woff') format('woff'),
-       url('../fonts/AvenirNext-UltraLight.ttf') format('truetype'),
-       url('../fonts/AvenirNext-UltraLight.svg#AvenirNext-UltraLight') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
     font-family: "casper-icons";
     src:url("../fonts/casper-icons.eot");
     src:url("../fonts/casper-icons.eot?#iefix") format("embedded-opentype"),
