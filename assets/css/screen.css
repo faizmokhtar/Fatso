@@ -732,8 +732,8 @@ margin on the iframe, cause it breaks stuff. */
 /* Add a border to the buttons on hover */
 .back-button:hover,
 .subscribe-button:hover {
-    border-color: #ebf2f6;
-    color: #9EABB3;
+    color: #889093;
+    border-color: #98a0a4;
 }
 
 /* The details of your blog. Defined in ghost/settings/ */
@@ -773,6 +773,12 @@ margin on the iframe, cause it breaks stuff. */
 .no-cover .main-nav.overlay .subscribe-button {
     color: rgba(0,0,0,0.4);
     border-color: #ebf2f6;
+}
+
+.no-cover .main-nav.overlay .back-button:hover,
+.no-cover .main-nav.overlay .subscribe-button:hover {
+    color: #889093;
+    border-color: #98a0a4;
 }
 
 /* Add subtle load-in animation for content on the home page */
@@ -1335,7 +1341,7 @@ body:not(.post-template) .post-title {
     display: inline-block;
     padding: 0 20px;
     line-height: 3em;
-    border: #bfc8cd 1px solid;
+    border: #ebf2f6 2px solid;
     text-decoration: none;
     border-radius: 40px;
     transition: border 0.3s ease;
@@ -1625,6 +1631,7 @@ body:not(.post-template) .post-title {
     .no-cover .main-nav.overlay {
         background: none;
     }
+
     .no-cover .main-nav.overlay .back-button,
     .no-cover .main-nav.overlay .subscribe-button {
         border: none;
